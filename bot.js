@@ -2,7 +2,7 @@ const fs = require('fs');
 const {Client, Collection, Intents} = require('discord.js');
 const {token} = require('./config.json');
 const wait = require('util').promisify(setTimeout);
-const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES], shardCount: 25 });
+const client = new Client({intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./komendy').filter((file) => file.endsWith('.js'));
 
