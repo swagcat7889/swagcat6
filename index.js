@@ -46,9 +46,6 @@ async (bot, web) => {
 try {
 //    eval(cmds);
   eval(bot);
-  eval(bot);
-  eval(bot);
-  eval(bot);
   eval(web);
 } catch (error) {
   console.log(error);
