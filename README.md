@@ -4,4 +4,9 @@ syf kod nie uruchamiaj eslinta
 
 jak uruchomić
 
-edytujesz token w configu i ez npm start
+edytujesz token w configu 
+
+1. npm i
+2. npm start
+
+proste proste
