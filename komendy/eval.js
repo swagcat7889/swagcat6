@@ -20,7 +20,7 @@ module.exports = {
         try {
             out = await eval(value)
         } catch (error) {
-            out = `Nie, bo error: ${error}`
+            out = `An error has occurred: ${error}`
         }
         inspectOut = require(`util`).inspect(out);
         return interaction.reply(`In: ${value}\nOut: ${inspectOut}`);
