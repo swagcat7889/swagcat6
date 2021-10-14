@@ -46,3 +46,4 @@ process.on('unhandledRejection', (error) => {
 client.on('error', (error) => {
   console.error('error (zwykły error): ', error);
 });
+ 
