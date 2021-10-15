@@ -1,5 +1,5 @@
 {
-  "name": "swagcat",
+  "name": "arkadia",
   "version": "6.9.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL3",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0"
